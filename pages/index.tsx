@@ -19,6 +19,8 @@ const Home: NextPage = () => {
           The <a href="https://nextjs.org">Shoe</a> Sanctuary
         </h1>
 
+        <p className={styles.description}>Kicks from Beyond.</p>
+
         <ul className={styles.grid}>
           {products.map(({ title, description, price, image, id }, i) => (
             <li className={styles.card} key={id}>
