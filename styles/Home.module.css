@@ -70,11 +70,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  list-style: none;
 }
 
 .card {
   margin: 1rem;
+  flex-basis: calc(33%-2rem);
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -85,14 +86,26 @@
   max-width: 300px;
 }
 
+@media (max-width: 960px) {
+  .card {
+    flex-basis: calc(33.33%-2rem);
+    max-width: 60em;
+  }
+}
+
 .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.card h2 {
+.card h2 h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }

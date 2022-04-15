@@ -1,0 +1,23 @@
+[
+  {
+    "title": "The Globe Trotters",
+    "description": "the world is your oyster with these bad boys.",
+    "image": "/images/GLOBE_TROT.webp",
+    "price": 200.0,
+    "id": "price_1KoqdaGQAheb8DtbQRuZu8Kw"
+  },
+  {
+    "title": "The Moon Walkers",
+    "description": "kicks that have real bounce to them like it's 1969. hee-hee.",
+    "image": "/images/MOON_SHOE.jpeg",
+    "price": 250.0,
+    "id": "price_1KoqgEGQAheb8Dtb5pxFcjJD"
+  },
+  {
+    "title": "The Space Travellers",
+    "description": "take your sole (or soul) out of this world.",
+    "image": "/images/SPACE_TRAVEL.jpeg",
+    "price": 300.0,
+    "id": "price_1KoqdaGQAheb8DtbQRuZu8Kw"
+  }
+]
